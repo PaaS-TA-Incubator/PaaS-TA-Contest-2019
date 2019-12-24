@@ -1,0 +1,95 @@
+      @import url(http://fonts.googleapis.com/earlyaccess/hanna.css);
+   @import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+   
+   img{
+       width:180px;
+       height:180px;
+   }
+   .type07 {
+   width:550px;
+    border-collapse: collapse;    
+    line-height: 1.5;
+    border: 1px solid #ccc;
+    margin: 10px 10px;
+    background:white;
+    border-top-left-radius : 5px;
+		border-bottom-left-radius : 5px;
+		border-top-right-radius : 5px;
+		border-bottom-right-radius: 5px;
+    
+   }
+   
+   .type07 tbody th {
+
+    font-size : 13px;
+   text-align: center;
+    width: 100px;
+    padding: 10px;
+    font-weight: bold;
+    vertical-align: top;
+    border-bottom: 1px solid #ccc;
+    background: #ddecf2;
+   }
+   .type07 td {
+   font-size : 12px;
+   background:white;
+   text-align: left;
+    width: 400px;
+    padding: 10px;
+    vertical-align: top;
+    border-bottom: 1px solid #ccc;
+   }
+   .type07 input{
+   border: 2px solid #fcf1f4 ;
+		color: #e7708d;
+		background-color: white;
+   font-family : Hanna;
+	font-size : 5px;
+	
+	padding: 5px 10px 5px 10px;
+		border-top-left-radius : 5px;
+		border-bottom-left-radius : 5px;
+		border-top-right-radius : 5px;
+		border-bottom-right-radius: 5px;
+   }
+   .type07 input:hover{
+  border: 2px solid #fcf1f4 ;
+		color : #e7708d;
+		background-color: #fcf1f4;
+	}
+	
+	.main_title{
+
+      font-family : Hanna;
+      font-size : 30px;
+	}
+	.title{
+    color : #636363;
+	padding-left: 30px;
+    font-family : Hanna;
+    font-size : 20px;
+	}
+	.button_css{
+	color: #09789d;
+	font-family : Hanna;
+	font-size : 20px;
+		border: 2px solid #09789d;
+		background-color: white;
+		font-wieght : bold;
+		padding: 10px 15px 10px 15px;
+		border-top-left-radius : 5px;
+		border-bottom-left-radius : 5px;
+		border-top-right-radius : 5px;
+		border-bottom-right-radius: 5px;
+	}
+	.button_css:hover{
+		color: white;
+		background-color: #09789d;
+	}
+	.img_gray{
+    filter: grayscale(100%);
+    width: 120px;
+    height:40px;
+  }
+  
+  

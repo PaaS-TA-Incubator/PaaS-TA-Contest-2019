@@ -1,0 +1,239 @@
+   @import url(http://fonts.googleapis.com/earlyaccess/hanna.css);
+   @import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+ @import url(http://fonts.googleapis.com/earlyaccess/jejugothic.css);
+
+
+
+ body {
+      font-family: Nanum Gothic;
+   }
+   a { text-decoration:none}
+   .navbar {
+      background-color : #B2CCFF;
+      padding : 0.00075rem 1rem;
+      position : relative;
+      align-items : center;
+      font-family : Hanna;
+   }
+   .navbar ul {
+      height:10px; 
+      width:90%; 
+      display: table;
+      table-layout: fixed; 
+   }
+   .navbar ul li {
+      display: table-cell;
+        width: 10%;
+        text-align: center;
+   }
+   .navbar_item{
+      align-items : center;
+      margin-right : 14px;
+      padding : 10px;
+      
+   }
+   .logout{
+        display: block;
+        background : none;
+        border : 0px;
+        border-radius : 5px;
+        font-family : Hanna;
+        font-size : 100%;
+        color : #636363;
+   }
+   .logout:hover{
+        background : #EAEAEA;
+        border : 0px;
+   }
+   .menuLink{
+      text-decoration : none;
+      font-size : 120%;
+      color : white;
+   }
+   .menuLink:hover {
+      color : #636363;
+      font-wieght : bold;
+   }
+   .container {
+      display : flex;
+   }
+   .header_name {
+      margin-right : 130px;
+        position : relative;
+        bottom: 40px;
+      font-family : Malgun Gothic;
+      font-size : 100%;
+      font-weight : bold;
+      color : white;
+   }
+    .bodystyle{
+      padding : 10px;
+   }
+   .idpic{
+      width :105px; 
+      height : 135px; 
+       border : 1px solid;
+      margin-right : 10px; 
+   }
+   .field{      
+      margin-top : 20px;
+      align : center;
+      padding : 10px;
+      position: relative;
+   }
+      .field_info{      
+      border: 2px solid #B2CCFF;
+     border-radius: 10px;
+      margin-top : 20px;
+      align : center;
+      padding : 10px;
+      position: relative;
+   }
+   .field_info legend{
+      color : #636363;
+      font-family : Hanna;
+      font-size : 26px;
+   }
+   .field_info tr{
+   padding:10px;
+    font-family : Hanna;
+    font-size : 20px;
+    }      
+   .aa{
+        position : fixed;
+        right : 20px;
+        bottom : 20px;
+   }
+   
+   
+   .field_button,
+   .field_button::after {
+     -webkit-transition: all 0.3s;
+      -moz-transition: all 0.3s;
+     -o-transition: all 0.3s;
+      transition: all 0.3s;
+   }
+   
+   .field_button {
+   
+     background: none;
+     border: none;
+     border-radius: 5px;
+     color: #A1A1A1;
+     display: block;
+     font-size: 1.6em;
+     font-weight: bold;
+     left: 0; right: 0;
+       margin-left:auto; margin-right:auto;
+     padding-left: 100px;
+     padding-right: 100px;
+     position: absolute;
+     text-transform: uppercase;
+   }   
+   .field_button::before,
+   .field_button::after {
+     background: #D9E5FF;
+     content: '';
+     position: absolute;
+     z-index: -1;
+   }
+   
+   .field_button:hover {
+     color: #595959;
+   }
+   
+   
+   .type07 {
+
+   position : fixed;
+      right : 20px;
+      bottom : 50px;
+   width: 500px;
+    border-collapse: collapse;    
+    line-height: 1.5;
+    border: 1px solid #ccc;
+    margin: 20px 10px;
+    background:white;
+    
+   }
+   
+   .type07 thead {
+
+	font-size : 18px;
+   text-align: center;
+    border-right: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    background: #e7708d;
+   }
+   .type07 thead th {
+         
+   text-align: center;
+    padding: 10px;
+    font-weight: bold;
+    vertical-align: top;
+    color: #fff;
+   }
+   .type07 tbody th {
+
+         font-size : 16px;
+   text-align: center;
+    width: 100px;
+    padding: 10px;
+    font-weight: bold;
+    vertical-align: top;
+    border-bottom: 1px solid #ccc;
+    background: #fcf1f4;
+   }
+   .type07 td {
+   background:white;
+   text-align: left;
+    width: 400px;
+    padding: 10px;
+    vertical-align: top;
+    border-bottom: 1px solid #ccc;
+   }
+   .type07 input{
+   border: 2px solid #fcf1f4 ;
+		color: #e7708d;
+		background-color: white;
+   font-family : Hanna;
+	font-size : 16px;
+	
+	padding: 5px 10px 5px 10px;
+		border-top-left-radius : 5px;
+		border-bottom-left-radius : 5px;
+		border-top-right-radius : 5px;
+		border-bottom-right-radius: 5px;
+   }
+   .type07 input:hover{
+  border: 2px solid #fcf1f4 ;
+		color : #e7708d;
+		background-color: #fcf1f4;
+	}
+
+	.button_css{
+		font-family : Hanna;
+		font-size : 16px;
+		border: 2px solid ;
+		color: #B2CCFF;
+		background-color: white;
+		font-wieght : bold;
+		padding: 5px 10px 5px 10px;
+		border-top-left-radius : 5px;
+		border-bottom-left-radius : 5px;
+		border-top-right-radius : 5px;
+		border-bottom-right-radius: 5px;
+	}
+	.button_css:hover{
+		background-color: #B2CCFF;
+		color: white;
+		
+	}
+    .pw_h{
+    font-family: 'Jeju Gothic';
+    }
+    .pw_i{
+    font-family: 'Jeju Gothic';
+    }
+   
+      
