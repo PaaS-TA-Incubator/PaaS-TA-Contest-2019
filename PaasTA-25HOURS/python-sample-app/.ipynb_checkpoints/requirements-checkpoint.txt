@@ -12,7 +12,7 @@ CUBRID-Python==9.3.0.0001
 MySQL-python==1.2.3
 folium==0.5.0
 pandas==0.20.3
-urllib3==1.22
+urllib3==1.24.2
 requests==2.18.4
 urlopen==1.0.0
 BeautifulSoup==3.2.2
